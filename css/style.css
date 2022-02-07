@@ -53,6 +53,9 @@ body{
     background-size: cover;
 }
 
+img{
+    border-radius: .8rem;
+}
 
 .boton{
     display: flex;
