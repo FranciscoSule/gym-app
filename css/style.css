@@ -1,0 +1,130 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+
+
+a{
+    text-decoration: none;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+
+
+.inicio{
+   display: grid;
+}
+
+.img-inicio{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    }
+.texto-inicio{
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: 'Quintessential', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+color: rgb(255, 255, 255);
+margin-top: 0;
+max-width: 95%;
+}
+
+body{
+    background: rgb(252,252,252);
+    background: linear-gradient(0deg, rgba(252,252,252,1) 0%, rgba(52,159,157,1) 50%, rgba(13,12,12,0.5736083984375) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.boton{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: rgba(243, 141, 8, 0.815);
+    max-width: 20rem;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    color: rgba(0,243,251,1);
+    font-size: 2rem;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.seleccion-ejercicio{
+ padding-top: 2rem;  
+ padding-bottom: 2rem;
+}
+
+.rutina1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    width: 40rem;
+    height: 30rem;
+    background: rgba(0, 251, 25, 0.781);
+background: linear-gradient(270deg, rgba(0, 251, 25, 0.856) 0%, rgba(223, 14, 205, 0.883) 100%);
+border-radius: 3rem;
+}
+
+.cardio h2 ,.fuerza h2, .flexibilidad h2{
+    text-align: center;
+    color: rgb(255,255,255);
+    font-size: 2rem;
+    font-family: sans-serif;
+    margin: 1rem auto;
+}
+
+.cardio p, .fuerza p, .flexibilidad p{
+    text-align: center;
+    color: rgb(255,255,255);
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    margin: 1rem auto;
+    max-width: 95%;
+}
+
+.rutina2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    width: 40rem;
+    height: 30rem;
+    background: rgb(0,243,251);
+background: linear-gradient(270deg, rgba(0,243,251,1) 0%, rgba(243, 141, 8, 0.815) 100%);
+border-radius: 3rem;
+}
+
+.rutina3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    width: 40rem;
+    height: 30rem;
+    background: rgb(251,0,153);
+background: linear-gradient(270deg, rgba(251,0,153,1) 0%, rgba(8, 243, 16, 0.685) 100%);
+border-radius: 3rem;
+}
