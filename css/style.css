@@ -132,6 +132,9 @@ background: linear-gradient(270deg, rgba(251,0,153,1) 0%, rgba(8, 243, 16, 0.685
 border-radius: 3rem;
 }
 
-.footer p{
+footer p{
     font-size: 2rem;
+    text-align: center;
+    font-family: sans-serif;
+
 }
