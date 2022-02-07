@@ -67,6 +67,9 @@ body{
     font-family: monospace;
     font-weight: bold;
 }
+.boton :hover{
+    cursor: pointer;
+}
 
 .seleccion-ejercicio{
  padding-top: 2rem;  
