@@ -82,6 +82,22 @@ box-shadow: -1px 9px 7px 0px rgba(0,0,0,0.75);
  padding-bottom: 2rem;
 }
 
+.rutina{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    width: 35rem;
+    height: 30rem;
+    background: rgb(245,251,0);
+background: linear-gradient(270deg, rgba(245,251,0,1) 0%, rgba(8,26,243,0.3236083984375) 100%);
+border-radius: 3rem;
+-webkit-box-shadow: -1px 9px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 9px 7px 0px rgba(0,0,0,0.75);
+box-shadow: -1px 9px 7px 0px rgba(0,0,0,0.75);
+}
+
 .rutina1{
     display: flex;
     flex-direction: column;
@@ -98,7 +114,7 @@ border-radius: 3rem;
 box-shadow: -1px 9px 7px 0px rgba(0,0,0,0.75);
 }
 
-.cardio h2 ,.fuerza h2, .flexibilidad h2{
+.cardio h2 ,.fuerza h2, .flexibilidad h2, .rutina-ejercicio h2{
     text-align: center;
     color: rgb(255,255,255);
     font-size: 2rem;
@@ -107,7 +123,7 @@ box-shadow: -1px 9px 7px 0px rgba(0,0,0,0.75);
     margin: 1rem auto;
 }
 
-.cardio p, .fuerza p, .flexibilidad p{
+.cardio p, .fuerza p, .flexibilidad p, .rutina-ejercicio p{
     text-align: center;
     color: rgb(255,255,255);
     font-size: 1.6rem;
