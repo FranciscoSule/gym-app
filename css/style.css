@@ -62,11 +62,11 @@ img{
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    background-color: rgba(243, 141, 8, 0.815);
+    background-color: rgb(255, 148, 9);
     max-width: 20rem;
     padding: 2rem 3rem;
     border-radius: 1rem;
-    color: rgba(0,243,251,1);
+    color: rgb(0, 0, 0);
     font-size: 2rem;
     font-family: monospace;
     font-weight: bold;
